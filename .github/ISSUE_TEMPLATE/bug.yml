@@ -48,3 +48,11 @@ body:
       description: 详细描述您出错前的操作步骤，推荐配上视频效果更好。
     validations:
       required: true
+
+  - type: input
+    id: useruid
+    attributes:
+      label: 你的简幻欢账号UID
+      description: 请填写你的简幻欢账号UID，如果此issue是有效且被采纳的，后续将根据此uid发放积分奖励。
+    validations:
+      required: false
